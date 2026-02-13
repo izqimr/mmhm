@@ -1,0 +1,41 @@
+case_01:
+  casename: 补偿意向申请
+  mothod: post
+  url: /intention/manage/resubmit/apply
+  json:
+    userId: 0
+    intentionBrand: 1
+    intentionArea: 
+        provinceCode: string
+        cityCode: string
+        provinceName: string
+        cityName: string
+    intentionType: NEW_STORE
+    applyType: FIRST_APPLY
+    budgetRange: BELOW_600K
+    planInvestmentType: SOLO
+    planStoreManagerType: OUTSIDE_HIRING
+    hasOwnShop: true
+    ownShopInfo: 
+        intentionNo: string
+        shopName: string
+        shopProvinceCode: string
+        shopProvinceName: string
+        shopCityCode: string
+        shopCityName: string
+        shopDistrictCode: string
+        shopDistrictName: string
+        shopAddress: string
+        monthlyRent: 0
+        areaSize: 0
+        facadeWidth: 0
+        shopFrontPhotoUrl: string
+        perimeter360VideoUrl: string
+        longitude: 0
+        latitude: 0
+    planFindShopDate: string
+    hasIntentionArea: 0
+    sourceIntentionNo: string
+    abnormalReason: string
+    storeCode: string
+    submitIntentionType: SubmitIntentionSourceEnum.WX_APPLET_SOURCE.getValue()
