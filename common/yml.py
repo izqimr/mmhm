@@ -52,5 +52,5 @@ class Yml:
     def get_storeDB_info(self):
         return self.data["envs"][self.env]["storeDB"]
     
-    def get_header(self):
-        return self.data["envs"][self.env]["public"]["header"]
+    def get_headers(self):
+        return self.data["envs"][self.env]["public"]["headers"]

@@ -5,9 +5,9 @@ class SupportApi:
 
     def __init__(self):
         self.yml = Yml()
-        self.header = self.yml.get_header()
+        self.headers = self.yml.get_headers()
 
 
     def login(self, json):
         url = "/gateway/admin/user/login"
-        return Request.post("post", url, json=json, header=self.header)
+        return Request().post(url, json=json, headers=self.headers)

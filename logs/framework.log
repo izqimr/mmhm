@@ -1,0 +1,14 @@
+2026-02-14 16:12:53,111 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 16:12:53,111 | INFO     | smoke | smoke test log line
+2026-02-14 16:15:43,313 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 16:15:43,315 | INFO     | __main__ | start login flow
+2026-02-14 16:15:43,316 | INFO     | common.request | ============================================================
+2026-02-14 16:15:43,316 | INFO     | common.request | request method: POST
+2026-02-14 16:15:43,316 | INFO     | common.request | request url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-14 16:15:43,316 | INFO     | common.request | request headers: {'Content-Type': 'application/json', 'x-app-id': 'store-selection-service', 'X-App-Secret': 'c3RvcmUtc2VsZWN0aW9uLXNlcnZpY2U='}
+2026-02-14 16:15:43,316 | INFO     | common.request | request params: None
+2026-02-14 16:15:43,316 | INFO     | common.request | request data: None
+2026-02-14 16:15:43,316 | INFO     | common.request | request json: {'appId': 'sys_admin', 'endpoint': 'pc', 'password': 'b49b9a6864a40343eca6fa8c4883c1004c7671842f6bccdb1be419c7ea63471e4f9a8c0ec2039f0f5e635b36542d5d5fad8ab107c555202006431af286ab9c9b', 'userName': 18620130825}
+2026-02-14 16:15:43,676 | INFO     | common.request | response status_code: 200
+2026-02-14 16:15:43,677 | INFO     | common.request | response text: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1771056945430%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MTA1Njk0NTQzMCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcxMTAwMTQ1fQ.qXwwZRvOg9e4A879gQ_VyGE_7BPCGwziWLA9r_Ow24IFZWLzW6s_JPrPSLmHlPqtwaytzx0p89oXqT2F_P1QrA"},"success":true}
+2026-02-14 16:15:43,678 | INFO     | __main__ | login finished, token length=222

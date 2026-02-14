@@ -7,7 +7,7 @@ envs:
       host: https://test-digital.hnlshm.com
       username: 18620130825
       password: 58jv49V9
-      header:
+      headers:
         Content-Type: application/json
         x-app-id: store-selection-service
         X-App-Secret: c3RvcmUtc2VsZWN0aW9uLXNlcnZpY2U=
