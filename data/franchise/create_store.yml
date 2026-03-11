@@ -1,0 +1,74 @@
+steps:
+  - name: intention_apply
+    enabled: true
+    method: POST
+    url: gateway/store-franchise-service/intention/manage/resubmit/apply
+    body:
+      userId: ${user_id}
+      intentionBrand: 1
+      intentionArea:
+        provinceCode: ${province_code}
+        cityCode: ${city_code}
+        provinceName: ${province_name}
+        cityName: ${city_name}
+      intentionType: NEW_STORE
+      applyType: FIRST_APPLY
+      budgetRange: BELOW_600K
+      planInvestmentType: SOLO
+      planStoreManagerType: OUTSIDE_HIRING
+      hasOwnShop: false
+      ownShopInfo:
+        intentionNo: ""
+        shopName: ""
+        shopProvinceCode: ""
+        shopProvinceName: ""
+        shopCityCode: ""
+        shopCityName: ""
+        shopDistrictCode: ""
+        shopDistrictName: ""
+        shopAddress: ""
+        monthlyRent: 0
+        areaSize: 0
+        facadeWidth: 0
+        shopFrontPhotoUrl: ""
+        perimeter360VideoUrl: ""
+        longitude: 0
+        latitude: 0
+      planFindShopDate: ${plan_find_shop_date}
+      hasIntentionArea: 0
+      sourceIntentionNo: ""
+      abnormalReason: ""
+      storeCode: ""
+      submitIntentionType: WX_APPLET_SOURCE
+    extract:
+      intention_no: data.intentionNo
+
+  - name: upload_contract
+    enabled: true
+    method: POST
+    url: gateway/store-franchise-service/contract/upload
+    body:
+      intentionNo: ${intention_no}
+      contractUrl: "https://example.com/contract.pdf"
+      contractName: "intent-agreement.pdf"
+
+  - name: agreement_submit
+    enabled: false
+    method: POST
+    url: gateway/store-franchise-service/intention/agreement/submit
+    body:
+      intentionNo: ${intention_no}
+
+  - name: pay_bill
+    enabled: false
+    method: POST
+    url: gateway/store-franchise-service/payment/bill/pay
+    body:
+      bizNo: ${intention_no}
+
+  - name: create_store
+    enabled: false
+    method: POST
+    url: gateway/store-franchise-service/store/create
+    body:
+      intentionNo: ${intention_no}

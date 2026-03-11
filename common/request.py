@@ -1,6 +1,5 @@
 ﻿import requests
 from tenacity import retry, stop_after_attempt, wait_fixed
-
 from common.yml import Yml
 from common.logger import get_logger
 
@@ -25,24 +24,46 @@ class Request:
         json=None,
         files=None,
         timeout=5,
-        need_token=False,
+        need_token=True,
     ):
-        full_url = self.base_url + url
+        base = self.base_url.rstrip("/")
+        path = url.lstrip("/")
+        full_url = f"{base}/{path}"
         headers = headers or {}
 
         if need_token:
-            token = self._get_token()
+            # Local import avoids circular dependency with Auth -> SupportApi -> Request.
+            from common.auth import Auth
+
+            token = Auth.get_token()
             headers["Authorization"] = f"Bearer {token}"
 
         logger.info("=" * 60)
-        logger.info("request method: %s", method)
-        logger.info("request url: %s", full_url)
-        logger.info("request headers: %s", headers)
-        logger.info("request params: %s", params)
-        logger.info("request data: %s", data)
-        logger.info("request json: %s", json)
+        logger.info("method: %s", method)
+        logger.info("url: %s", full_url)
 
-        try:
+        response = self.session.request(
+            method=method.upper(),
+            url=full_url,
+            headers=headers,
+            params=params,
+            data=data,
+            json=json,
+            files=files,
+            timeout=timeout,
+        )
+
+        logger.info("status_code: %s", response.status_code)
+        logger.info("response: %s", response.text)
+
+        # 自动刷新 token
+        if response.status_code == 401 and need_token:
+            logger.warning("token expired, refreshing...")
+            from common.auth import Auth
+
+            Auth.clear_token()
+            token = Auth.get_token()
+            headers["Authorization"] = f"Bearer {token}"
             response = self.session.request(
                 method=method.upper(),
                 url=full_url,
@@ -54,17 +75,8 @@ class Request:
                 timeout=timeout,
             )
 
-            logger.info("response status_code: %s", response.status_code)
-            logger.info("response text: %s", response.text)
-
-            response.raise_for_status()
-            return response
-        except requests.exceptions.RequestException as exc:
-            logger.error("request error: %s", exc)
-            raise
-
-    def _get_token(self):
-        return "your_token_here"
+        response.raise_for_status()
+        return response
 
     def get(self, url, **kwargs):
         return self.send("GET", url, **kwargs)

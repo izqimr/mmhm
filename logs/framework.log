@@ -12,3 +12,962 @@
 2026-02-14 16:15:43,676 | INFO     | common.request | response status_code: 200
 2026-02-14 16:15:43,677 | INFO     | common.request | response text: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1771056945430%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MTA1Njk0NTQzMCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcxMTAwMTQ1fQ.qXwwZRvOg9e4A879gQ_VyGE_7BPCGwziWLA9r_Ow24IFZWLzW6s_JPrPSLmHlPqtwaytzx0p89oXqT2F_P1QrA"},"success":true}
 2026-02-14 16:15:43,678 | INFO     | __main__ | login finished, token length=222
+2026-02-14 17:34:35,247 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:34:36,523 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:35:49,045 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:35:50,981 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:36:10,235 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:41:22,697 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:50:24,720 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:53:38,779 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:53:48,653 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:53:52,040 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:53:54,452 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:53:56,844 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:00,356 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:02,372 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:05,808 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:07,445 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:18,134 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:24,482 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:34,403 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:42,453 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:54:48,317 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:07,979 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:11,946 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:14,334 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:17,557 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:36,552 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:40,091 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:55:40,093 | INFO     | __main__ | start login flow
+2026-02-14 17:59:31,218 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 17:59:33,673 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:00:08,695 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:00:33,018 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:00:34,836 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:00:36,209 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:02:10,904 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:02:15,704 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-14 18:02:21,400 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 09:39:23,121 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:34:19,379 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:34:19,403 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:34:27,011 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:34:27,259 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:50,497 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:50,578 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:52,850 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:53,061 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:53,994 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:38:54,249 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:02,819 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:03,013 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:04,919 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:05,122 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:33,677 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:33,890 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:53,208 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:53,434 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:56,070 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:39:56,320 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:22,693 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:22,948 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:27,889 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:28,146 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:44,942 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:45,159 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:50,812 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:40:51,049 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:41:13,872 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 13:41:14,091 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:05:26,323 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:06:43,360 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:08:42,454 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:08:44,042 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:17,160 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:19,512 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:22,434 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:23,696 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:26,453 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:09:31,247 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:15:54,798 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:16:00,490 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:16:59,131 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:05,366 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:07,047 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:08,593 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:17,282 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:39,923 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:45,664 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:47,914 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:50,721 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:17:53,635 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:18:06,168 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:18:26,723 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:18:28,174 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:18:30,168 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:18:40,153 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:22,700 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:26,174 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:28,461 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:43,626 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:46,628 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:47,808 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 14:30:53,141 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:23:30,020 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:25:52,911 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:25:53,137 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:25:58,727 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:25:59,024 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:26:02,606 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:26:02,816 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:26:30,864 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:26:31,065 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:27:49,169 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:27:49,368 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:27:58,098 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:27:58,328 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:12,371 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:12,581 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:13,369 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:13,574 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:22,410 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:22,664 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:29,211 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:29,423 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:30,600 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:30,827 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:41,000 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:28:41,210 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:30,504 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:30,702 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:35,560 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:35,840 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:37,222 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:37,429 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:42,337 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:42,543 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:45,846 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:46,086 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:48,268 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 16:29:48,511 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 17:07:48,577 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 17:07:51,503 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 17:07:54,431 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-24 17:07:57,394 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 13:51:48,785 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 13:51:53,983 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 13:51:53,987 | INFO     | __main__ | start login flow
+2026-02-25 13:51:53,987 | INFO     | common.request | ============================================================
+2026-02-25 13:51:53,988 | INFO     | common.request | request method: POST
+2026-02-25 13:51:53,988 | INFO     | common.request | request url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 13:51:53,988 | INFO     | common.request | request headers: {'Content-Type': 'application/json', 'x-app-id': 'store-selection-service', 'X-App-Secret': 'c3RvcmUtc2VsZWN0aW9uLXNlcnZpY2U='}
+2026-02-25 13:51:53,988 | INFO     | common.request | request params: None
+2026-02-25 13:51:53,988 | INFO     | common.request | request data: None
+2026-02-25 13:51:53,988 | INFO     | common.request | request json: {'appId': 'sys_admin', 'endpoint': 'pc', 'password': 'b49b9a6864a40343eca6fa8c4883c1004c7671842f6bccdb1be419c7ea63471e4f9a8c0ec2039f0f5e635b36542d5d5fad8ab107c555202006431af286ab9c9b', 'userName': 18620130825}
+2026-02-25 13:51:54,383 | INFO     | common.request | response status_code: 200
+2026-02-25 13:51:54,384 | INFO     | common.request | response text: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1771998714021%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MTk5ODcxNDAyMSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQxOTE0fQ.uqLn4FJWTpBMaTzxhbzSN_uzmeEyN0F2o3UmQBRYuV-3KTzmmpd7COyyfHd0u76a9SUAiXE-j24ud40Jpr-beA"},"success":true}
+2026-02-25 14:53:30,577 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:53:33,238 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:53:36,984 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:53:39,476 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:53:40,968 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:53:47,630 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:54:42,250 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 14:54:42,253 | INFO     | __main__ | start login flow
+2026-02-25 14:54:42,253 | INFO     | common.request | ============================================================
+2026-02-25 14:54:42,253 | INFO     | common.request | request method: POST
+2026-02-25 14:54:42,253 | INFO     | common.request | request url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 14:54:42,253 | INFO     | common.request | request headers: {'Content-Type': 'application/json', 'x-app-id': 'store-selection-service', 'X-App-Secret': 'c3RvcmUtc2VsZWN0aW9uLXNlcnZpY2U='}
+2026-02-25 14:54:42,253 | INFO     | common.request | request params: None
+2026-02-25 14:54:42,253 | INFO     | common.request | request data: None
+2026-02-25 14:54:42,253 | INFO     | common.request | request json: {'appId': 'sys_admin', 'endpoint': 'pc', 'password': 'b49b9a6864a40343eca6fa8c4883c1004c7671842f6bccdb1be419c7ea63471e4f9a8c0ec2039f0f5e635b36542d5d5fad8ab107c555202006431af286ab9c9b', 'userName': 18620130825}
+2026-02-25 14:54:42,621 | INFO     | common.request | response status_code: 200
+2026-02-25 14:54:42,621 | INFO     | common.request | response text: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772002482421%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwMjQ4MjQyMSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ1NjgyfQ.WDZclYaZA64UBthhRocm--7guC96bMWK9XPb07rn6DLfftgbfBG7THk7SwXyvspfQ-Qc2Z11jm1Uo0ne3nfJBw"},"success":true}
+2026-02-25 15:02:23,378 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:02:25,934 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:02:28,554 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:02:35,503 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:02:56,212 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:02:56,214 | INFO     | __main__ | start login flow
+2026-02-25 15:02:56,214 | INFO     | common.request | ============================================================
+2026-02-25 15:02:56,214 | INFO     | common.request | request method: POST
+2026-02-25 15:02:56,214 | INFO     | common.request | request url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 15:02:56,214 | INFO     | common.request | request headers: {'Content-Type': 'application/json', 'x-app-id': 'store-selection-service', 'X-App-Secret': 'c3RvcmUtc2VsZWN0aW9uLXNlcnZpY2U='}
+2026-02-25 15:02:56,214 | INFO     | common.request | request params: None
+2026-02-25 15:02:56,214 | INFO     | common.request | request data: None
+2026-02-25 15:02:56,214 | INFO     | common.request | request json: {'appId': 'sys_admin', 'endpoint': 'pc', 'password': 'b49b9a6864a40343eca6fa8c4883c1004c7671842f6bccdb1be419c7ea63471e4f9a8c0ec2039f0f5e635b36542d5d5fad8ab107c555202006431af286ab9c9b', 'userName': 18620130825}
+2026-02-25 15:02:56,686 | INFO     | common.request | response status_code: 200
+2026-02-25 15:02:56,687 | INFO     | common.request | response text: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772002976486%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwMjk3NjQ4NiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ2MTc2fQ.v98XT1CaqYpOhHvEy9Db5YStzm1d9BgX916CaG8HThAe__iJX49nJyFaMKsfQ9c-XS5K1tXYK6aQYafVDiZefw"},"success":true}
+2026-02-25 15:02:56,687 | INFO     | __main__ | login finished, token length=222
+2026-02-25 15:14:08,942 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:14:12,443 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:32:09,370 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:32:09,372 | INFO     | __main__ | start login flow
+2026-02-25 15:32:53,981 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:32:53,983 | INFO     | __main__ | start login flow
+2026-02-25 15:32:53,983 | INFO     | common.request | ============================================================
+2026-02-25 15:32:53,983 | INFO     | common.request | method: POST
+2026-02-25 15:32:53,983 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 15:32:54,405 | INFO     | common.request | status_code: 200
+2026-02-25 15:32:54,405 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772004774242%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwNDc3NDI0MiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ3OTc0fQ.D33vx2FRlY6AmUx6tbPLg31fG_eqwThVNlsEJHYieLVAkYEwo2fBggjF54T0ub3JlAuKhq0o2dbOQcNMRqMiqw"},"success":true}
+2026-02-25 15:32:54,405 | INFO     | __main__ | login finished, token length=222
+2026-02-25 15:33:39,153 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:33:39,155 | INFO     | __main__ | start login flow
+2026-02-25 15:33:39,155 | INFO     | common.request | ============================================================
+2026-02-25 15:33:39,155 | INFO     | common.request | method: POST
+2026-02-25 15:33:39,155 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 15:33:39,491 | INFO     | common.request | status_code: 200
+2026-02-25 15:33:39,491 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772004819331%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwNDgxOTMzMSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ4MDE5fQ.zrfia-nJu6JvZeb2VRTCzTMbQ82pRPam4yoE-Rkz6p4nuiSsBSOXHbCbyAMcka1wYOh92CytsE6H0iGhXzHj9Q"},"success":true}
+2026-02-25 15:33:39,491 | INFO     | __main__ | login finished, token length=222
+2026-02-25 15:34:43,105 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:34:44,010 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:39:15,699 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:39:15,901 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:39:43,107 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:39:43,308 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:41:23,206 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:41:23,411 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:41:27,347 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:41:27,537 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:19,406 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:19,570 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:40,970 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:41,162 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:45,752 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:42:45,986 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:16,355 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:21,166 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:24,280 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:27,082 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:43,501 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:44,748 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:46,113 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:47,844 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:49,541 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:43:51,177 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:44:08,769 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:44:14,132 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:44:26,803 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:44:52,129 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:45:10,792 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:46:24,258 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:46:37,620 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:47:47,422 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:48:00,687 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:48:00,795 | INFO     | __main__ | start login flow
+2026-02-25 15:48:01,030 | INFO     | common.request | ============================================================
+2026-02-25 15:48:01,030 | INFO     | common.request | method: POST
+2026-02-25 15:48:01,031 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 15:48:01,373 | INFO     | common.request | status_code: 200
+2026-02-25 15:48:01,374 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772005681224%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwNTY4MTIyNCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ4ODgxfQ.207T6dACEAfU3PdOnVYTJn2ko0r2iOzz-TfS3IGZuYFEUKGGiW6zeWkqqmmIcUPaLEatDQ9YXPoKCqEt-nAVcQ"},"success":true}
+2026-02-25 15:51:28,162 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 15:51:28,166 | INFO     | common.request | ============================================================
+2026-02-25 15:51:28,166 | INFO     | common.request | method: POST
+2026-02-25 15:51:28,166 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 15:51:28,495 | INFO     | common.request | status_code: 200
+2026-02-25 15:51:28,496 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772005888353%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwNTg4ODM1MyIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ5MDg4fQ.x3MSvo1ItYiL22grAACYlbrDHuKL213bhgB9rI3NsAEpR7hM5fnexYjordme1f6qlV0sq-kNX8S1gVFZQ8WEWg"},"success":true}
+2026-02-25 16:00:07,365 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:00:07,371 | INFO     | common.request | ============================================================
+2026-02-25 16:00:07,371 | INFO     | common.request | method: POST
+2026-02-25 16:00:07,371 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:00:07,708 | INFO     | common.request | status_code: 200
+2026-02-25 16:00:07,709 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772006407572%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwNjQwNzU3MiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDQ5NjA3fQ.K3-7hO-ic6Ybm9B9lSqqIDs_AUcYFoAxCsgIHXgJYtZddQy50fnwg4z7ppNpBGl1mbF9JUVURsHrZPQdieAOXw"},"success":true}
+2026-02-25 16:00:07,711 | INFO     | common.request | ============================================================
+2026-02-25 16:00:07,712 | INFO     | common.request | method: POST
+2026-02-25 16:00:07,712 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:00:07,765 | INFO     | common.request | status_code: 405
+2026-02-25 16:00:07,765 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:00:09,766 | INFO     | common.request | ============================================================
+2026-02-25 16:00:09,766 | INFO     | common.request | method: POST
+2026-02-25 16:00:09,766 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:00:09,819 | INFO     | common.request | status_code: 405
+2026-02-25 16:00:09,819 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:00:11,821 | INFO     | common.request | ============================================================
+2026-02-25 16:00:11,821 | INFO     | common.request | method: POST
+2026-02-25 16:00:11,821 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:00:11,894 | INFO     | common.request | status_code: 405
+2026-02-25 16:00:11,894 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:30:50,799 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:30:50,805 | INFO     | common.request | ============================================================
+2026-02-25 16:30:50,805 | INFO     | common.request | method: POST
+2026-02-25 16:30:50,805 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:30:51,169 | INFO     | common.request | status_code: 200
+2026-02-25 16:30:51,169 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772008251053%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwODI1MTA1MyIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDUxNDUxfQ.VpYE-FN0s90D-xSpnFTGWN9IqrVtUNOutM_jC3Qb6Y2DkYjZFYXTqGy0kUyCY-DKkn0PljtX_fGyojlPf4s5_g"},"success":true}
+2026-02-25 16:30:51,171 | INFO     | common.request | ============================================================
+2026-02-25 16:30:51,171 | INFO     | common.request | method: POST
+2026-02-25 16:30:51,171 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:30:51,225 | INFO     | common.request | status_code: 405
+2026-02-25 16:30:51,226 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:30:53,227 | INFO     | common.request | ============================================================
+2026-02-25 16:30:53,227 | INFO     | common.request | method: POST
+2026-02-25 16:30:53,227 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:30:53,279 | INFO     | common.request | status_code: 405
+2026-02-25 16:30:53,279 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:30:55,280 | INFO     | common.request | ============================================================
+2026-02-25 16:30:55,280 | INFO     | common.request | method: POST
+2026-02-25 16:30:55,281 | INFO     | common.request | url: https://test-digital.hnlshm.com/intention/manage/resubmit/apply
+2026-02-25 16:30:55,332 | INFO     | common.request | status_code: 405
+2026-02-25 16:30:55,333 | INFO     | common.request | response: <html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2026-02-25 16:32:04,726 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:32:04,732 | INFO     | common.request | ============================================================
+2026-02-25 16:32:04,732 | INFO     | common.request | method: POST
+2026-02-25 16:32:04,732 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:32:05,125 | INFO     | common.request | status_code: 200
+2026-02-25 16:32:05,125 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772008325017%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwODMyNTAxNyIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDUxNTI1fQ.y2_oV8iHVaGlgTfu6_FHAvZzWgXaoQZ9gJWI-zoOTQlZwKeZcF5GSE5_9nuASzO8FYcn3P_2PFxqtwnRBiiJ4A"},"success":true}
+2026-02-25 16:32:05,128 | INFO     | common.request | ============================================================
+2026-02-25 16:32:05,128 | INFO     | common.request | method: POST
+2026-02-25 16:32:05,129 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/intention/manage/resubmit/apply
+2026-02-25 16:32:05,222 | INFO     | common.request | status_code: 404
+2026-02-25 16:32:05,222 | INFO     | common.request | response: {"timestamp":"2026-02-25 16:32:05","path":"/intention/manage/resubmit/apply","status":404,"error":"Not Found","message":null,"requestId":"a5f57e8b-33"}
+2026-02-25 16:32:07,223 | INFO     | common.request | ============================================================
+2026-02-25 16:32:07,223 | INFO     | common.request | method: POST
+2026-02-25 16:32:07,223 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/intention/manage/resubmit/apply
+2026-02-25 16:32:07,303 | INFO     | common.request | status_code: 404
+2026-02-25 16:32:07,304 | INFO     | common.request | response: {"timestamp":"2026-02-25 16:32:07","path":"/intention/manage/resubmit/apply","status":404,"error":"Not Found","message":null,"requestId":"a0b98d4b-427"}
+2026-02-25 16:32:09,305 | INFO     | common.request | ============================================================
+2026-02-25 16:32:09,305 | INFO     | common.request | method: POST
+2026-02-25 16:32:09,305 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/intention/manage/resubmit/apply
+2026-02-25 16:32:09,668 | INFO     | common.request | status_code: 404
+2026-02-25 16:32:09,669 | INFO     | common.request | response: {"timestamp":"2026-02-25 16:32:09","path":"/intention/manage/resubmit/apply","status":404,"error":"Not Found","message":null,"requestId":"20314174-159"}
+2026-02-25 16:38:07,031 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:41:04,856 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:41:04,862 | INFO     | common.request | ============================================================
+2026-02-25 16:41:04,862 | INFO     | common.request | method: POST
+2026-02-25 16:41:04,862 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:41:05,235 | INFO     | common.request | status_code: 200
+2026-02-25 16:41:05,236 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772008865129%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwODg2NTEyOSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDUyMDY1fQ.-Um2G7qRqwccr1mVU12xrwf7PgOEux6s12hErSHc94qkHVt7Cnc6ir7aSrsrSErsCNmtvkPpteF1jbAgULrH8g"},"success":true}
+2026-02-25 16:41:05,237 | INFO     | common.request | ============================================================
+2026-02-25 16:41:05,238 | INFO     | common.request | method: POST
+2026-02-25 16:41:05,238 | INFO     | common.request | url: https://test-digital.hnlshm.comgateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 16:41:07,455 | INFO     | common.request | ============================================================
+2026-02-25 16:41:07,455 | INFO     | common.request | method: POST
+2026-02-25 16:41:07,456 | INFO     | common.request | url: https://test-digital.hnlshm.comgateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 16:41:09,634 | INFO     | common.request | ============================================================
+2026-02-25 16:41:09,634 | INFO     | common.request | method: POST
+2026-02-25 16:41:09,634 | INFO     | common.request | url: https://test-digital.hnlshm.comgateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 16:41:32,810 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:41:32,816 | INFO     | common.request | ============================================================
+2026-02-25 16:41:32,816 | INFO     | common.request | method: POST
+2026-02-25 16:41:32,816 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:41:33,149 | INFO     | common.request | status_code: 200
+2026-02-25 16:41:33,149 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772008893046%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwODg5MzA0NiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDUyMDkzfQ.iXf7DjZ1ho6EfGvQuacupU7oLEB7AFLU0liTvYQwRG_k-2wLPmC8mLaW6pqzp8pukD6ys9Wlkhw6IxMnx60_hQ"},"success":true}
+2026-02-25 16:41:33,151 | INFO     | common.request | ============================================================
+2026-02-25 16:41:33,152 | INFO     | common.request | method: POST
+2026-02-25 16:41:33,152 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 16:41:33,323 | INFO     | common.request | status_code: 200
+2026-02-25 16:41:33,324 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 16:45:25,363 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 16:45:25,368 | INFO     | common.request | ============================================================
+2026-02-25 16:45:25,368 | INFO     | common.request | method: POST
+2026-02-25 16:45:25,369 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 16:45:25,758 | INFO     | common.request | status_code: 200
+2026-02-25 16:45:25,758 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772009125654%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAwOTEyNTY1NCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDUyMzI1fQ.4_lbYkJrUlsD5Ov5zwNHFAtG71ttkRLFFlrfwzcpKHQ5hqVhG119lsgYj1e0OnYF5pc58dfg4Vyj0IlCnxxzoQ"},"success":true}
+2026-02-25 16:45:25,761 | INFO     | common.request | ============================================================
+2026-02-25 16:45:25,761 | INFO     | common.request | method: POST
+2026-02-25 16:45:25,761 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 16:45:25,932 | INFO     | common.request | status_code: 200
+2026-02-25 16:45:25,933 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 17:27:57,320 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 17:27:57,335 | INFO     | common.request | ============================================================
+2026-02-25 17:27:57,336 | INFO     | common.request | method: POST
+2026-02-25 17:27:57,336 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 17:27:57,724 | INFO     | common.request | status_code: 200
+2026-02-25 17:27:57,725 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772011677660%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxMTY3NzY2MCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU0ODc3fQ.EBuFOiiCedTiR72koqn4TjPY1IMnrurcdtX1pR8Z1pKVVaVYZsQew52TRP4ruvl5a7-YeEA73Uci7JM44fC7IQ"},"success":true}
+2026-02-25 17:27:57,727 | INFO     | common.request | ============================================================
+2026-02-25 17:27:57,727 | INFO     | common.request | method: POST
+2026-02-25 17:27:57,727 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 17:27:57,925 | INFO     | common.request | status_code: 200
+2026-02-25 17:27:57,926 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 17:45:22,912 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 17:45:22,918 | INFO     | common.request | ============================================================
+2026-02-25 17:45:22,918 | INFO     | common.request | method: POST
+2026-02-25 17:45:22,918 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 17:45:23,299 | INFO     | common.request | status_code: 200
+2026-02-25 17:45:23,300 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772012723250%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxMjcyMzI1MCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU1OTIzfQ.f0djWW4vy6qq30FMzBb6QsTSDJqC4986PeFma7CeiulqD2UqpEGeTFny2qeR-r_deK9tFiUQRT3xhdTeMq1pGg"},"success":true}
+2026-02-25 17:45:23,301 | INFO     | common.request | ============================================================
+2026-02-25 17:45:23,301 | INFO     | common.request | method: POST
+2026-02-25 17:45:23,301 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 17:45:23,467 | INFO     | common.request | status_code: 200
+2026-02-25 17:45:23,467 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 18:05:04,111 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:04,150 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:10,010 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:10,236 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:11,711 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:11,920 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:31,046 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:31,243 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:33,887 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:34,069 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:37,561 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:37,772 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:42,846 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:05:42,852 | INFO     | common.request | ============================================================
+2026-02-25 18:05:42,852 | INFO     | common.request | method: POST
+2026-02-25 18:05:42,852 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 18:05:43,233 | INFO     | common.request | status_code: 200
+2026-02-25 18:05:43,234 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772013943202%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxMzk0MzIwMiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU3MTQzfQ.TX9k9Sfl-gNRbvbLcZG2uxAZiv0nQeyrC4-RcHISsqx9jjvKlKcmgUWNOYE56ZMVkdbzS9rH23x4IO5svn9FbA"},"success":true}
+2026-02-25 18:05:43,236 | INFO     | common.request | ============================================================
+2026-02-25 18:05:43,236 | INFO     | common.request | method: POST
+2026-02-25 18:05:43,236 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 18:05:43,405 | INFO     | common.request | status_code: 200
+2026-02-25 18:05:43,405 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 18:06:00,797 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:00,980 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:12,158 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:12,164 | INFO     | common.request | ============================================================
+2026-02-25 18:06:12,164 | INFO     | common.request | method: POST
+2026-02-25 18:06:12,164 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 18:06:12,547 | INFO     | common.request | status_code: 200
+2026-02-25 18:06:12,547 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772013972516%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxMzk3MjUxNiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU3MTcyfQ.0VeyA0qJ20pfBlhUJZCrRwzjx1rTy5CNRMIpcr262GHti-5XEnahRNFYjim-YCh407EZsp2tbq6tpSz_pzn8NQ"},"success":true}
+2026-02-25 18:06:12,549 | INFO     | common.request | ============================================================
+2026-02-25 18:06:12,549 | INFO     | common.request | method: POST
+2026-02-25 18:06:12,550 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 18:06:12,715 | INFO     | common.request | status_code: 200
+2026-02-25 18:06:12,715 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 18:06:39,744 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:39,985 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:42,050 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:42,213 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:54,105 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:06:54,111 | INFO     | common.request | ============================================================
+2026-02-25 18:06:54,111 | INFO     | common.request | method: POST
+2026-02-25 18:06:54,111 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 18:06:54,530 | INFO     | common.request | status_code: 200
+2026-02-25 18:06:54,530 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772014014489%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxNDAxNDQ4OSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU3MjE0fQ.227BrxvEXv9hwYX1gotfQwQCKL7T4pdMVQYSoDqZoQaVdTSfA8WYyf-YZq3d038EvKOa6d_RPNjqu1Nw_i0aqQ"},"success":true}
+2026-02-25 18:06:54,532 | INFO     | common.request | ============================================================
+2026-02-25 18:06:54,533 | INFO     | common.request | method: POST
+2026-02-25 18:06:54,533 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 18:06:54,704 | INFO     | common.request | status_code: 200
+2026-02-25 18:06:54,704 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 18:07:19,546 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:07:19,756 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:07:25,704 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:07:25,709 | INFO     | common.request | ============================================================
+2026-02-25 18:07:25,709 | INFO     | common.request | method: POST
+2026-02-25 18:07:25,709 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 18:07:26,071 | INFO     | common.request | status_code: 200
+2026-02-25 18:07:26,071 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772014046045%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxNDA0NjA0NSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU3MjQ2fQ.y6RgJYsKQ5fwEXzOQ3dHbBDtye6diOwKNaOFeBbutsPX7C46UyxNjlIm3zh6eNFCLGVyl0YQWTYz48Wg-0503w"},"success":true}
+2026-02-25 18:07:26,073 | INFO     | common.request | ============================================================
+2026-02-25 18:07:26,074 | INFO     | common.request | method: POST
+2026-02-25 18:07:26,074 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 18:07:26,241 | INFO     | common.request | status_code: 200
+2026-02-25 18:07:26,241 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-25 18:10:22,120 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:22,318 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:28,888 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:29,086 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:30,834 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:31,050 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:35,882 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:36,093 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:37,583 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:37,787 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:43,350 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:43,565 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:49,480 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:10:49,728 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:07,155 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:07,381 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:12,858 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:13,050 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:19,020 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-25 18:11:19,025 | INFO     | common.request | ============================================================
+2026-02-25 18:11:19,025 | INFO     | common.request | method: POST
+2026-02-25 18:11:19,026 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-02-25 18:11:19,397 | INFO     | common.request | status_code: 200
+2026-02-25 18:11:19,397 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%223f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772014279371%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3MjAxNDI3OTM3MSIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyMDU3NDc5fQ.-9hwISEwB0CD5qUtWNkTAzrPhym3mJeLSxhAsOJYpK3-lt43gRlDSlS_t426x9L4cTNd_hdmIeb29UPvVmkAaQ"},"success":true}
+2026-02-25 18:11:19,399 | INFO     | common.request | ============================================================
+2026-02-25 18:11:19,399 | INFO     | common.request | method: POST
+2026-02-25 18:11:19,399 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-02-25 18:11:19,568 | INFO     | common.request | status_code: 200
+2026-02-25 18:11:19,568 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-02-26 09:13:16,408 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-28 11:45:24,718 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-28 13:49:22,767 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-02-28 16:17:54,411 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:14,436 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:19,324 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:21,254 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:22,933 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:24,923 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:29,678 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:35,580 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:39,267 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:40,702 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:43,711 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:46,102 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:47,218 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:54,997 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:33:59,101 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:36:55,148 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:12,430 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:19,222 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:37,248 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:38,360 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:42,678 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:45,078 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:51,411 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:55,029 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:56,180 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:58,177 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:37:59,614 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:38:07,380 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:38:08,564 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:38:12,245 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:38:58,414 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:09,614 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:12,223 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:13,473 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:15,972 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:17,224 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:20,792 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:26,663 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:27,949 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:30,513 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:37,759 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:39:41,638 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:41:01,042 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:41:05,427 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:41:09,666 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:41:24,386 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:41:26,272 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:46:36,968 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:46:39,136 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:47:29,264 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:52:56,425 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:52:59,421 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:53:00,976 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:53:35,087 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:53:47,596 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:53:49,649 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:02,635 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:03,870 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:07,638 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:11,780 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:16,693 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:18,332 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:49,798 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:54:51,052 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:03,115 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:24,057 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:25,825 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:29,605 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:32,932 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:33,938 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:39,190 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:40,907 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:55,239 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:56,433 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:55:58,997 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:00,247 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:02,187 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:03,371 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:06,549 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:09,348 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:12,356 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:16,166 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:19,390 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:23,006 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:28,342 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:30,927 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:34,253 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:38,030 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:41,538 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:45,057 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:49,238 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:52,625 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:56:56,376 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:57:12,503 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:57:19,091 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:57:40,000 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:57:59,780 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:02,800 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:04,705 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:09,318 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:24,053 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:31,344 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:34,347 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:37,683 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:39,100 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:51,639 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:55,685 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:56,901 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:58:59,439 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:03,468 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:31,396 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:33,190 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:34,921 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:44,112 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:51,903 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:52,966 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:54,288 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 09:59:56,375 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:00,976 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:05,630 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:19,915 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:23,736 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:26,525 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:30,757 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:00:44,297 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:01:06,266 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:01:12,114 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:01:21,245 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:01:25,009 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:01:25,101 | INFO     | __main__ | start login flow
+2026-03-02 10:02:23,300 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:02:23,386 | INFO     | __main__ | start login flow
+2026-03-02 10:04:15,353 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:04:15,441 | INFO     | __main__ | start login flow
+2026-03-02 10:06:28,467 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:06:30,060 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:06:44,319 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:06:44,413 | INFO     | __main__ | start login flow
+2026-03-02 10:10:04,959 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:10:07,039 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:10:32,594 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:10:34,587 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:10:52,619 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:11:04,711 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:11:06,997 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:11:09,989 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:11:14,101 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:11:14,192 | INFO     | __main__ | start login flow
+2026-03-02 10:37:06,537 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:06,747 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:13,207 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:13,502 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:15,101 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:15,329 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:24,272 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:24,489 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:27,807 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:28,051 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:29,447 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:29,654 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:31,652 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:31,838 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:36,593 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:36,880 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:47,765 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:47,997 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:50,463 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:50,675 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:54,224 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:37:54,495 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:20,657 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:20,887 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:25,048 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:25,268 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:26,801 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:27,027 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:28,130 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:38:28,351 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:42:51,454 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:42:53,678 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:05,950 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:08,322 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:10,818 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:50,288 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:52,576 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:54,389 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:56,976 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:43:59,215 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:45:50,877 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:45:53,779 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:46:06,934 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:46:09,505 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:46:27,082 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:46:44,760 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:49:10,905 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:49:16,783 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:57:18,336 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 10:57:24,850 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:06,637 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:15,988 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:21,754 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:28,496 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:38,914 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:41,510 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:43,491 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:53,364 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:43:57,992 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:01,330 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:19,526 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:24,952 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:37,733 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:40,442 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:42,609 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:44:54,361 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:04,930 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:10,964 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:14,337 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:17,597 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:22,203 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:26,866 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:31,274 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:36,595 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:45:40,614 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:46:16,396 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:46:18,986 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:47:22,566 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:47:28,360 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:47:42,719 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:54:54,036 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:55:38,809 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:56:09,525 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:08,236 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:08,460 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:47,608 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:47,817 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:50,451 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:50,684 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:55,140 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 13:59:55,343 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:03,800 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:04,035 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:08,902 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:09,108 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:10,633 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:10,876 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:12,787 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:12,997 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:19,306 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:19,535 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:22,038 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:22,249 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:26,994 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:27,255 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:37,641 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:37,873 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:38,810 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:39,074 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:45,912 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:46,145 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:47,196 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:47,408 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:50,314 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:50,516 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:55,675 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-02 14:00:55,946 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:02:53,740 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:02:53,918 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:03:00,601 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:03:00,872 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:04:55,480 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:04:55,692 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:05:09,646 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:05:09,886 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:07:50,635 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:08:03,199 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:15,343 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:15,556 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:25,862 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:26,124 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:36,249 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:09:36,458 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:05,621 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:05,852 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:11,431 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:11,686 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:12,777 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:12,983 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:20,294 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:20,500 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:23,412 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:23,610 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:24,888 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:25,149 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:26,652 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:26,888 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:45,661 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:54,116 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:54,302 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:56,321 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:10:56,544 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:13,262 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:13,508 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:29,514 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:29,742 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:32,584 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:32,813 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:40,031 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:40,264 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:41,727 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-04 15:11:41,943 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:19,164 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:19,165 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:24,626 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:24,884 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:28,005 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:28,206 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:31,361 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:31,661 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:34,150 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:34,367 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:36,234 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:36,462 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:40,058 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 13:56:40,278 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:30,659 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:30,772 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:57,537 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:57,745 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:59,086 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:29:59,285 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:30:42,208 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 14:30:42,404 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:06:22,832 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:09:00,388 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:14:53,318 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:14:53,340 | INFO     | common.request | ============================================================
+2026-03-06 15:14:53,340 | INFO     | common.request | method: POST
+2026-03-06 15:14:53,340 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-03-06 15:14:54,365 | INFO     | common.request | status_code: 200
+2026-03-06 15:14:54,365 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%22d0034f4ec7f6427b9c6e0c05f209be9d%2C3f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772781294108%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3Mjc4MTI5NDEwOCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyODI0NDk0fQ.1Bs9Vansg_orApQB9G8Pww-Amfmpw2iFPup_7-Z4bUYtnSzZfKhCZhRIE16zsopG_tH1sio-7Uz-vcL8wHFZYA"},"success":true}
+2026-03-06 15:14:54,368 | INFO     | common.request | ============================================================
+2026-03-06 15:14:54,368 | INFO     | common.request | method: POST
+2026-03-06 15:14:54,368 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-03-06 15:14:54,485 | INFO     | common.request | status_code: 200
+2026-03-06 15:14:54,486 | INFO     | common.request | response: {"success":false,"code":"ER00151000999","message":"系统繁忙，请稍后重试","data":null}
+2026-03-06 15:19:50,363 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:19:50,379 | INFO     | common.request | ============================================================
+2026-03-06 15:19:50,380 | INFO     | common.request | method: POST
+2026-03-06 15:19:50,380 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-03-06 15:19:50,772 | INFO     | common.request | status_code: 200
+2026-03-06 15:19:50,772 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%22d0034f4ec7f6427b9c6e0c05f209be9d%2C3f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772781590862%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3Mjc4MTU5MDg2MiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyODI0NzkwfQ._WHuzSoJCEBoF0NwH8yoBwSjW3KZNfsh4c6wEKLwgVgbIA-k3ftOPlJlqUfX9oirDoFEKOYIEFLr-bIVEvlwYA"},"success":true}
+2026-03-06 15:19:50,774 | INFO     | common.request | ============================================================
+2026-03-06 15:19:50,774 | INFO     | common.request | method: POST
+2026-03-06 15:19:50,775 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-03-06 15:19:50,962 | INFO     | common.request | status_code: 200
+2026-03-06 15:19:50,963 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-03-06 15:36:13,541 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:36:13,579 | INFO     | common.request | ============================================================
+2026-03-06 15:36:13,580 | INFO     | common.request | method: POST
+2026-03-06 15:36:13,581 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-03-06 15:36:14,154 | INFO     | common.request | status_code: 200
+2026-03-06 15:36:14,154 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%22d0034f4ec7f6427b9c6e0c05f209be9d%2C3f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772782574258%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3Mjc4MjU3NDI1OCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyODI1Nzc0fQ.XvK_zmdl6L50mrgcj9akZVd5wtmXide9RpATbXSEIV-KLqh5YnMZ6EmkwHsOJI94AzQ5DS1RE75KP09PnDtu_A"},"success":true}
+2026-03-06 15:36:14,159 | INFO     | common.request | ============================================================
+2026-03-06 15:36:14,159 | INFO     | common.request | method: POST
+2026-03-06 15:36:14,159 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-03-06 15:36:14,328 | INFO     | common.request | status_code: 200
+2026-03-06 15:36:14,328 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-03-06 15:38:40,832 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:40,857 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:42,700 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:43,021 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:45,904 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:46,138 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:50,061 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:50,278 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:54,009 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:38:54,321 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:47:08,223 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:47:08,225 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:47:11,131 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 15:47:11,429 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:09:06,810 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:09:06,834 | INFO     | common.request | ============================================================
+2026-03-06 17:09:06,834 | INFO     | common.request | method: POST
+2026-03-06 17:09:06,835 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-03-06 17:09:07,221 | INFO     | common.request | status_code: 200
+2026-03-06 17:09:07,222 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%22d0034f4ec7f6427b9c6e0c05f209be9d%2C3f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772788147412%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3Mjc4ODE0NzQxMiIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyODMxMzQ3fQ.VRAmAUWMeU4PFBN6eCB85B6u1Jk_7Mp_q6nj5fr5jz2o-3wocgewP3ksfG7rCCQslRdJZ0iiMP90zLBxyf2OSA"},"success":true}
+2026-03-06 17:09:07,222 | INFO     | common.request | ============================================================
+2026-03-06 17:09:07,223 | INFO     | common.request | method: POST
+2026-03-06 17:09:07,223 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-03-06 17:09:07,372 | INFO     | common.request | status_code: 200
+2026-03-06 17:09:07,372 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-03-06 17:11:53,867 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:11:53,931 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:36:53,622 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:36:53,791 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:07,120 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:07,392 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:21,902 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:22,175 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:29,386 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:37:29,573 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:38:09,780 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:38:09,808 | INFO     | common.request | ============================================================
+2026-03-06 17:38:09,808 | INFO     | common.request | method: POST
+2026-03-06 17:38:09,808 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/admin/user/login
+2026-03-06 17:38:10,226 | INFO     | common.request | status_code: 200
+2026-03-06 17:38:10,227 | INFO     | common.request | response: {"respCode":"200","respMsg":"操作成功","data":{"loginUser":"%7B%22realName%22%3A%22%E9%AB%98%E5%90%91%E9%98%B3%22%2C%22user_role%22%3A%22d0034f4ec7f6427b9c6e0c05f209be9d%2C3f2e15376e9a020943b4cf249c50ed05%2Ce03303a0b1da300f10496b38d8768ab7%22%2C%22endpoint%22%3A%22pc%22%2C%22userStatus%22%3A%223%22%2C%22user_type%22%3A%22internal%22%2C%22phone%22%3A%2218620130825%22%2C%22login_serial%22%3A%22admin%3A624430782%3A1772789890448%22%2C%22userId%22%3A624430782%2C%22email%22%3A%22186201305%40qq.com%22%2C%22orgId%22%3A%22900701726%22%7D","token":"eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2luZm8iOiJhZG1pbjo2MjQ0MzA3ODI6MTc3Mjc4OTg5MDQ0OCIsImlzX3Rva2VuX2NhY2hlZCI6dHJ1ZSwiZXhwIjoxNzcyODMzMDkwfQ.sP5zqWqxdLTrx9CldadF7B6KBBgAman2erxH8ECwAnY5k71QRjF52R_xU7Clw4ZMWJrP_tyzqHtiZ3Z9wE4BJA"},"success":true}
+2026-03-06 17:38:10,227 | INFO     | common.request | ============================================================
+2026-03-06 17:38:10,228 | INFO     | common.request | method: POST
+2026-03-06 17:38:10,228 | INFO     | common.request | url: https://test-digital.hnlshm.com/gateway/store-franchise-service/intention/manage/resubmit/apply
+2026-03-06 17:38:10,397 | INFO     | common.request | status_code: 200
+2026-03-06 17:38:10,398 | INFO     | common.request | response: {"success":true,"code":null,"message":null,"data":null}
+2026-03-06 17:42:12,414 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-06 17:42:12,418 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-09 16:56:51,883 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 09:43:33,876 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 10:44:07,278 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 14:22:17,276 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 14:55:17,720 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:20:31,372 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:20:33,846 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:20:36,078 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:20:43,119 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:21:00,324 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:21:01,426 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:21:25,870 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 15:21:31,731 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:04:49,347 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:09:34,539 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:22:08,789 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:22:15,589 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:22:26,005 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-10 16:26:40,788 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:13:17,401 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:13:25,675 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:13:32,041 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:14:05,957 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:14:13,330 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:14:19,309 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:15:49,387 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:15:55,606 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO
+2026-03-11 14:20:52,550 | INFO     | root | logger initialized: file=D:\Work\autoTest\logs\framework.log level=INFO

@@ -1,56 +1,84 @@
-# common/config.py
+# common/yml.py
 import os
+from config.env import (
+    HOST, USERNAME, PASSWORD, APP_ID, APP_SECRET,
+    FRANCHISE_DB_HOST, FRANCHISE_DB_USER, FRANCHISE_DB_PASSWORD, FRANCHISE_DB_PORT, FRANCHISE_DATABASE,
+    STORE_DB_HOST, STORE_DB_USER, STORE_DB_PASSWORD, STORE_DB_PORT, STORE_DATABASE
+)
 import yaml
 
+
 class Yml:
-
-    # def __init__(self):
-    #     # 获取项目根目录
-    #     root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace('\\', '/')
-    #     # 拼接配置文件目录
-    #     conf_dir = root_dir + '/' + 'config/config.yml'
-
-    #     # 读取 yaml 文件
-    #     with open(conf_dir, 'r', encoding='utf-8') as f:
-    #         self.data = yaml.safe_load(f)
-
-    #     # 读取环境变量，默认 test
-    #     self.env = os.environ.get("API_ENV", "test")
+    """
+    配置管理类 - 从环境变量读取配置
+    
+    所有敏感信息和环境相关配置已迁移到 .env 文件
+    此类负责读取 .env 中的配置和 data/ 目录下的测试数据文件
+    """
 
     _instance = None
 
     def __new__(cls, *args, **kwargs):
+        """单例模式"""
         if not cls._instance:
             cls._instance = super().__new__(cls)
         return cls._instance
 
     def __init__(self):
+        """初始化配置"""
         if hasattr(self, "_initialized"):
             return
-
-        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__))).replace('\\', '/')
-        conf_path = os.path.join(root_dir, "config", "config.yml")
-
-        with open(conf_path, 'r', encoding='utf-8') as f:
-            self.data = yaml.safe_load(f)
-
-        self.env = os.environ.get("API_ENV", "test")
         self._initialized = True
     
     def get_host(self):
-        return self.data["envs"][self.env]["public"]["host"]
+        """获取 API 主机地址"""
+        return HOST
     
     def get_username(self):
-        return self.data["envs"][self.env]["public"]["username"]
+        """获取用户名"""
+        return USERNAME
     
     def get_password(self):
-        return self.data["envs"][self.env]["public"]["password"]
+        """获取密码"""
+        return PASSWORD
     
     def get_franchiseDB_info(self):
-        return self.data["envs"][self.env]["franchiseDB"]
+        """获取 Franchise 数据库连接信息"""
+        return {
+            "DB_host": FRANCHISE_DB_HOST,
+            "DB_user": FRANCHISE_DB_USER,
+            "DB_password": FRANCHISE_DB_PASSWORD,
+            "DB_port": FRANCHISE_DB_PORT,
+            "DataBase": FRANCHISE_DATABASE,
+        }
     
     def get_storeDB_info(self):
-        return self.data["envs"][self.env]["storeDB"]
+        """获取 Store 数据库连接信息"""
+        return {
+            "DB_host": STORE_DB_HOST,
+            "DB_user": STORE_DB_USER,
+            "DB_password": STORE_DB_PASSWORD,
+            "DB_port": STORE_DB_PORT,
+            "DataBase": STORE_DATABASE,
+        }
     
     def get_headers(self):
-        return self.data["envs"][self.env]["public"]["headers"]
+        """获取请求头"""
+        return {
+            "Content-Type": "application/json",
+            "x-app-id": APP_ID,
+            "X-App-Secret": APP_SECRET,
+        }
+
+    def read_yaml(self, file_path):
+        """
+        读取 YAML 测试数据文件
+        
+        Args:
+            file_path: 测试数据文件路径（如 data/franchise/create_store.yml）
+            
+        Returns:
+            解析后的 YAML 数据（字典或列表）
+        """
+        with open(file_path, encoding="utf-8") as f:
+            return yaml.safe_load(f)

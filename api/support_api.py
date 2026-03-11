@@ -10,4 +10,4 @@ class SupportApi:
 
     def login(self, json):
         url = "/gateway/admin/user/login"
-        return Request().post(url, json=json, headers=self.headers)
+        return Request().post(url, json=json, headers=self.headers, need_token=False)
